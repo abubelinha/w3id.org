@@ -1,0 +1,9 @@
++Options +FollowSymLinks
+
+RewriteEngine on
+
+# SANT herbarium page:
+RewriteRule ^$ http://www.usc.es/herbario [R=302,L]
+
+# SANT herbarium GBIF search:
+RewriteRule ^catalognumber=$ http://www.gbif.org/occurrence/search?INSTITUTION_CODE=SANT&CATALOGNUMBER=
