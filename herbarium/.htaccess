@@ -1,3 +1,6 @@
 Options +FollowSymLinks
+
 RewriteEngine on
+
+# Linking to Index Herbariorum by institutional acronym:
 RewriteRule ^$ http://sweetgum.nybg.org/science/ih/herbarium_list.php?col_NamOrganisationAcronym= [R=302,L]
