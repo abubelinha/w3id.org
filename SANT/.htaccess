@@ -7,3 +7,6 @@ RewriteRule ^$ http://www.usc.es/herbario [R=302,L]
 
 # SANT herbarium GBIF search:
 RewriteRule ^catalognumber=$ http://www.gbif.org/occurrence/search?INSTITUTION_CODE=SANT&CATALOGNUMBER=
+
+# .htaccess rewriting examples:
+#  https://www.searchenginepeople.com/blog/htaccess-redirect-rewrite-rules.html
